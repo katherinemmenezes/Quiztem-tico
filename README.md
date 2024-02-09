@@ -1,1 +1,1 @@
-# Quiztem-tico
+# Quiz temático
