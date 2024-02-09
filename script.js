@@ -18,22 +18,22 @@ const perguntas = [
       correta: 1
     },
     {
-      pergunta: "Qual é o nome do protagonista hobbit da história?",
+      pergunta: "Quem é o rei de Gondor durante a Batalha do Abismo de Helm?",
       respostas: [
-        "Merry",
-        "Frodo",
-        "Sam"
+        "Denethor",
+        "Theoden",
+        "Aragorn"
       ],
-      correta: 1
+      correta: 0
     },
     {
-      pergunta: "O que é 'O Um Anel'?",
+      pergunta: "Qual é o nome do mago cinzento que é inicialmente conhecido por Gandalf, o Cinzento, em 'O Senhor dos Anéis'?",
       respostas: [
-        "Uma espada lendária",
-        "Um objeto mágico capaz de controlar os outros anéis de poder",
-        "Um símbolo de amizade entre os povos livres da Terra-média"
+        "Radagast",
+        "Saruman",
+        "Gandalf"
       ],
-      correta: 1
+      correta: 2
     },
     {
       pergunta: "Qual é a cidade dos elfos em 'O Senhor dos Anéis'?",
@@ -45,20 +45,20 @@ const perguntas = [
       correta: 0
     },
     {
-      pergunta: "Qual é a raça de personagens que habita a Floresta das Trevas?",
+      pergunta: "Quem é o governante de Rohan?",
       respostas: [
-        "Anões",
-        "Elfos",
-        "Ents"
+        "Theoden",
+        "Eowyn",
+        "Saruman"
       ],
-      correta: 2
+      correta: 0
     },
     {
-      pergunta: "Quem é o rei de Gondor no início da história?",
+      pergunta: "Qual é o nome da espada mágica que é forjada para derrotar Sauron em 'O Senhor dos Anéis'?",
       respostas: [
-        "Aragorn",
-        "Boromir",
-        "Faramir"
+        "Andúril",
+        "Sting",
+        "Glamdring"
       ],
       correta: 0
     },
@@ -71,25 +71,26 @@ const perguntas = [
       ],
       correta: 0
     },
-    {
-      pergunta: "Qual é o nome do local onde Frodo precisa destruir o Um Anel?",
-      respostas: [
-        "Montanha da Perdição",
-        "Montanha Solitária",
-        "Montanha da Perdição"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Quem é o guardião de Gollum?",
-      respostas: [
-        "Gandalf",
-        "Bilbo",
-        "Frodo"
-      ],
-      correta: 1
-    }
-  ];
+    
+      {
+        pergunta: "Quem é o rei dos Cavaleiros de Rohan?",
+        respostas: [
+          "Éomer",
+          "Théoden",
+          "Boromir"
+        ],
+        correta: 1
+      },
+      {
+        pergunta: "Quem é o portador original do Um Anel?",
+        respostas: [
+          "Gollum",
+          "Saruman",
+          "Isildur"
+        ],
+        correta: 2
+      }
+    ];
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
